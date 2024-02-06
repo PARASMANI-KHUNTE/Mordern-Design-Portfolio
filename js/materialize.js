@@ -12335,3 +12335,23 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
+
+
+
+
+
+$(document).ready(function(){
+  // Smooth scrolling for sidebar links
+  $('#nav-mobile a').on('click', function(e) {
+    if (this.hash !== '') {
+      e.preventDefault();
+
+      const hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
