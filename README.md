@@ -24,7 +24,7 @@ This is the portfolio website for PARAS, showcasing projects, contact informatio
 1. Clone the repository:
 
     ```
-    git clone [<repository_url>](https://github.com/PARASMANI-KHUNTE/Mordern-Design-Portfolio)
+    git clone https://github.com/PARASMANI-KHUNTE/Mordern-Design-Portfolio
     ```
 
 2. Install dependencies:
